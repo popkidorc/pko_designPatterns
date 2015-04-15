@@ -9,7 +9,7 @@ import java.util.List;
  * @author popkidorc
  * 
  */
-public abstract class IMyCommand {
+public abstract class MyCommand {
 
 	/**
 	 * 存储操作日志

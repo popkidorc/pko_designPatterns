@@ -1,6 +1,6 @@
 package com.demoFunction.command.invoker;
 
-import com.demoFunction.command.command.IMyCommand;
+import com.demoFunction.command.command.MyCommand;
 
 /**
  * 命令模式_请求者
@@ -9,9 +9,9 @@ import com.demoFunction.command.command.IMyCommand;
  * 
  */
 public class MyCommandInvoker {
-	private IMyCommand myCommandCommand;
+	private MyCommand myCommandCommand;
 
-	public void setMyCommandCommand(IMyCommand myCommandCommand) {
+	public void setMyCommandCommand(MyCommand myCommandCommand) {
 		this.myCommandCommand = myCommandCommand;
 	}
 

@@ -8,7 +8,7 @@ import com.demoFunction.command.receiver.MyCommandSaveReceiver;
  * @author popkidorc
  * 
  */
-public class MyCommandOperationCommand extends IMyCommand {
+public class MyCommandOperationCommand extends MyCommand {
 
 	protected MyCommandSaveReceiver myCommandSaveReceiver;
 
